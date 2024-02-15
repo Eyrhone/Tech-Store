@@ -86,3 +86,6 @@ Le système devra permettre aux utilisateurs de :
 - Adresse client
 - Type de réductions
 - Code promotionnel
+
+## Liens Utiles
+Documentations techniques : https://drive.google.com/drive/folders/1Mra_e2w0ceJIjJzGP5KkN2YqAeJejITT?usp=sharing
