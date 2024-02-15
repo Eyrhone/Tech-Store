@@ -1,73 +1,88 @@
-# Business documents
-[https://docs.google.com/document/d/1FSUpTyFW0rVDzX9PD25SFvxczi_0kOEPQY_vF21FzV4/edit](https://drive.google.com/drive/folders/1Mra_e2w0ceJIjJzGP5KkN2YqAeJejITT?usp=sharing)
+![output-onlinepngtools (1)](https://github.com/Eyrhone/Tech-Store/assets/141184936/6a7ec65b-abee-4bfa-b1f9-639dbbee2b2e)
+# Cahier des charges - Projet Tech Store eCommerce
 
-# Getting Started with Create React App
+## 1. Introduction
+Le projet consiste à développer une plateforme eCommerce pour une boutique de produits technologiques. Le système permettra aux utilisateurs de naviguer à travers une variété de produits, de passer des commandes, de gérer leur panier, de suivre le statut des commandes, et plus encore. Les technologies clés utilisées incluent C# .NET 8, React, et MongoDB.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 2. Technologies Utilisées
 
-## Available Scripts
+**Backend :**
+- Langage de programmation : C# .NET 8
+- Framework de développement : ASP.NET Core
+- ORM : Entity Framework Core
+- Base de données : MongoDB (NoSQL)
+- Infrastructure : Microservices
+- Messaging Queue : Apache Kafka
+- Stockage de fichiers : SFTP, NAS, Amazon S3
 
-In the project directory, you can run:
+**Frontend :**
+- Framework JavaScript : React
+- Langages : HTML, CSS/SCSS
+- Conception : eCommerce Template - Tech Store (Community) sur Figma
+- Tests : Jest, React Testing Library
 
-### `npm start`
+**API :**
+- Architecture : RESTful
+- Outils : Postman, OpenAPI (Swagger)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Tests :**
+- Unitaires : Xunit
+- Mutation : Stryker.NET
+- PACT : Tests de contrat
+- BDD : SpecFlow
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Gestion de Configuration et DevOps :**
+- Contrôle de version : Git (Trunk-based)
+- Orchestration de conteneurs : Kubernetes
+- Conteneurisation : Docker
+- Qualité de code : SonarQube
+- Métriques et monitoring : Grafana, Zabbix, Prometheus
 
-### `npm test`
+## 3. Bonnes Pratiques et Méthodologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Architecture : Clean Architecture, DDD
+- Programmation : Orientée Objet
+- Design Pattern et Principes : SOLID
+- Méthodologie de Gestion de Projet : Agile (SCRUM)
 
-### `npm run build`
+## 4. Fonctionnalités du Système
+Le système devra permettre aux utilisateurs de :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Consulter les produits disponibles
+- Ajouter des produits au panier
+- Gérer le panier (mise à jour, suppression, etc.)
+- Créer et gérer un compte client
+- Gérer les adresses clients
+- Utiliser une Wishlist
+- Se connecter à un compte client
+- Rechercher des produits
+- S'inscrire/désinscrire à la newsletter
+- Passer des commandes
+- Gérer les retours produits
+- Suivre le statut des commandes
+- Utiliser un formulaire de contact
+- Simuler des paiements de commandes
+- Consulter une FAQ
+- Ajouter des avis sur les produits
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 5. Définition des Objets Métiers
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Produits
+- Types de produits
+- Panier
+- Client
+- Wishlist
+- Historique d'envoi de newsletters
+- Commande
+- Retours
+- Type de statut de commande
+- Contact
+- Paiement
+- Types de paiements
+- FAQ
+- Marques
+- Avis
+- Tags
+- Adresse client
+- Type de réductions
+- Code promotionnel
